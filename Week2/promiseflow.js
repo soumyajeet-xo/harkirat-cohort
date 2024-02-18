@@ -17,3 +17,8 @@ promisifiedTimeout().then(function(value) {
   console.log("promisified then 6");
   console.log(value);
 });
+
+
+//  promises are first returned then resolved
+
+// the resolution of the Promise (i.e., when it transitions from pending to either fulfilled or rejected) occurs asynchronously, typically at a later point in time.
